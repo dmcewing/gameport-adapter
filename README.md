@@ -1,3 +1,9 @@
+This project differs from the source in only that the pins for the switch are assigned
+on pins A2-A5 in the order A5, A4, A2, A3.  This was due to me using a full size Leonardo
+R3 board rather than the pico.  Other than that, and having to find the right pins there
+are yet, no other changes.  Though I should probably have moved the MOSI pin for Button 3
+to a different pin.
+
 # Necroware's GamePort Adapter
 
 ![GamePort Adapter](./photo.jpg)

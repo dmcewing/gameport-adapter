@@ -27,8 +27,8 @@
 
 static Joystick *createJoystick() {
 
-  const auto sw1 = DigitalInput<14, true>{};
-  const auto sw2 = DigitalInput<15, true>{};
+  const auto sw1 = DigitalInput<23, true>{};
+  const auto sw2 = DigitalInput<22, true>{};
   const auto sw3 = DigitalInput<20, true>{};
   const auto sw4 = DigitalInput<21, true>{};
 
